@@ -31,7 +31,8 @@ Yeoman travels light. He didn't pack any generators when he moved in. You can th
 To install generator-4kheadless from npm, run:
 
 ```bash
-npm install -g generator-4kheadless
+npm install -g generator-4kheadless 
+cd generator-4kheadless && git submodule init
 ```
 
 Finally, initiate the generator:
